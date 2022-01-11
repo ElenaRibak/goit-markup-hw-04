@@ -167,6 +167,11 @@ element.style {
   color: var(--accent-color);
 }
 
+.header-link:hover .header-link-icon,
+.header-link:focus .header-link-icon {
+  fill: var(--accent-color);
+}
+
 .header-list .link.current {
   color: var(--accent-color);
 }
@@ -314,6 +319,8 @@ element.style {
 
 .aside-list {
   display: flex;
+  width: 270px;
+  height: 428px;
 }
 .aside-social-list {
   display: flex;
@@ -628,6 +635,7 @@ element.style {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+  cursor: pointer;
 }
 .box-item:hover,
 .box-item:focus {
